@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lato&display=swap');
+
+.topContent {
+    color: white;
+}
+
+.topContent__container {
+    position: absolute;
+    top: 500px;
+    right: 350px;
+}
+
+.topContent__container>p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+
+.topContent__container>a>button {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.topContent__container>h1 {
+    font-size: 60px;
+    font-family: "Crimson", sans-serif;
+}
+
+.downloadButton {
+    color: white;
+    background-color: rgb(108, 1, 157);
+    font-size: 15px;
+    padding: 10px 30px;
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.downloadButton:hover{
+    color:rgb(108, 1, 157);
+    background-color: white;
+    font-weight: 600;
+}
+
+.workButton {
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    padding: 9px 45px;
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.workButton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
